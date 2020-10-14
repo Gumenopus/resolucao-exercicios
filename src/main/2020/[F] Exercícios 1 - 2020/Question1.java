@@ -2,8 +2,46 @@ import java.util.Scanner;
 
 class Question1 {
 
+    static int quantidadeDeHorasMensais = 240;
+
     public static void main(final String[] args) {
-        //TODO...
+
+        final Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Quantas horas o funcionário trabalhou no mês: ");
+            int quantidadeDeHorasTrabalhadas = scanner.nextInt();
+
+            System.out.print("Valor por hora do funcionário: ");
+            int valorPorHora = scanner.nextInt();
+
+            System.out.println("Salário do funcionário sem horas extras: R$"
+                    + calculaHoraPadrao(valorPorHora));
+
+            System.out.println(
+                    "Horas extras do funcionário: R$" + calculaHoraExtra(quantidadeDeHorasTrabalhadas, valorPorHora));
+
+            System.out.println("Salário total do funcionário: R$"
+                    + calculaSalarioTotal(quantidadeDeHorasTrabalhadas, valorPorHora));
+        }
     }
 
+    private static int calculaHoraExtra(int quantidadeDeHorasTrabalhadas, int valorPorHora) {
+        int horasExtrasTrabalhadas = quantidadeDeHorasTrabalhadas - quantidadeDeHorasMensais;
+        int cinquentaPorcentoDoSalario = valorPorHora / 2;
+
+        int valorExtra = valorPorHora + cinquentaPorcentoDoSalario;
+        int totalDoValorExtra = valorExtra * horasExtrasTrabalhadas;
+        
+        return totalDoValorExtra;
+    }
+
+    private static int calculaHoraPadrao(int valorPorHora) {
+        return 240 * valorPorHora;
+    }
+
+    private static int calculaSalarioTotal(int quantidadeDeHorasTrabalhadas, int valorPorHora) {
+        return calculaHoraPadrao(valorPorHora)
+                + calculaHoraExtra(quantidadeDeHorasTrabalhadas, valorPorHora);
+    }
 }
