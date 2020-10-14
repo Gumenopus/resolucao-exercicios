@@ -22,3 +22,10 @@ digitadas ou não casas decimais no número.
 * Dada uma pergunta, “a cor é azul?”, faça um programa que leia uma variável
 lógica com a resposta e responda “Sim”, caso a resposta seja true, ou “Não”,
 caso seja false.
+
+⦁ Question 5
+
+* Faça um algoritmo que leia um caractere. Caso seja digitada a letra ‘M’ escreva
+“Masculino”. Se for digitada a letra `F´ escreva “Feminino”. Se for informado
+`I´ escreva “Não Informado”. Qualquer outra letra digitada escreva 
+“Entrada Incorreta”. Atenção: antes de testar a letra, converta-a para maiúscula. 
