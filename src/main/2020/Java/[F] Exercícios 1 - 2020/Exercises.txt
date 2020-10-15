@@ -36,3 +36,13 @@ caso seja false.
 superior pagam um adicional de R$ 0,45 por cada 20 gramas, ou fração, em que excedem
 aquele peso. Escreva um algoritmo que dado o peso da carta, em gramas, determine o
 custo do selo.
+
+⦁ Question 7
+
+* Dado uma letra, escreva um algoritmo que informe se ela é ou não uma vogal.
+
+⦁ Question 8
+
+* Um casal possui três filhos: Marquinhos, Zezinho e Luluzinha. Faça um algoritmo para
+ler as idades dos filhos e exibir quem é o caçula da família; suponha que não haja
+empates.
