@@ -9,17 +9,34 @@ class Question1 {
         final Scanner scanner = new Scanner(System.in);
 
         while (true) {
+
             System.out.print("Quantas horas o funcionário trabalhou no mês: ");
             int quantidadeDeHorasTrabalhadas = scanner.nextInt();
 
             System.out.print("Valor por hora do funcionário: ");
             int valorPorHora = scanner.nextInt();
 
-            System.out.println("Salário do funcionário sem horas extras: R$" + calculaHoraPadrao(valorPorHora));
+            if (quantidadeDeHorasTrabalhadas > 160) {
 
-            System.out.println("Horas extras do funcionário: R$" + calculaHoraExtra(quantidadeDeHorasTrabalhadas, valorPorHora));
+                // int horasExtras = quantidadeDeHorasTrabalhadas - 160;
+                // int cinquentaPorcentoDoSalario = valorPorHora / 2 + valorPorHora;
 
-            System.out.println("Salário total do funcionário: R$"+ calculaSalarioTotal(quantidadeDeHorasTrabalhadas, valorPorHora));
+                // int valorFinalHoraExtra =  horasExtras * cinquentaPorcentoDoSalario;
+                // int valorFinal = 160 * valorPorHora + valorFinalHoraExtra;
+
+                System.out.println("Salário total: " + ( (quantidadeDeHorasTrabalhadas - 160) * (valorPorHora / 2 + valorPorHora) + (160 * valorPorHora)) );
+            } else {
+                System.out.println("Salário total: " + quantidadeDeHorasTrabalhadas * valorPorHora);
+            }
+
+            // System.out.println("Salário do funcionário sem horas extras: R$" +
+            // calculaHoraPadrao(valorPorHora));
+
+            // System.out.println("Horas extras do funcionário: R$" +
+            // calculaHoraExtra(quantidadeDeHorasTrabalhadas, valorPorHora));
+
+            // System.out.println("Salário total do funcionário: R$"+
+            // calculaSalarioTotal(quantidadeDeHorasTrabalhadas, valorPorHora));
         }
     }
 
