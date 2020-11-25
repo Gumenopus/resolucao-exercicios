@@ -1,0 +1,55 @@
+Question 1 ->
+
+A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário
+que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da
+hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número
+de horas trabalhadas em um mês, o valor por hora e escreva o salário total do
+funcionário, que deverá ser acrescido das horas extras, caso tenham sido 
+trabalhadas (considere que o mês possua 4 semanas exatas).
+
+Question 2 ->
+
+Dados dois números inteiros descreva um algoritmo para informar o maior valor
+entre eles. Dado um número de ponto flutuante maior do que 0, informe se foram
+digitadas ou não casas decimais no número.
+
+Question 3 ->
+
+Dado um valor inteiro maior do que 0 informe se o valor é par ou ímpar.
+
+Question 4 ->
+
+Dada uma pergunta, “a cor é azul?”, faça um programa que leia uma variável
+lógica com a resposta e responda “Sim”, caso a resposta seja true, ou “Não”,
+caso seja false.
+
+Question 5 ->
+
+Faça um algoritmo que leia um caractere. Caso seja digitada a letra ‘M’ escreva
+“Masculino”. Se for digitada a letra `F´ escreva “Feminino”. Se for informado
+`I´ escreva “Não Informado”. Qualquer outra letra digitada escreva 
+“Entrada Incorreta”. Atenção: antes de testar a letra, converta-a para maiúscula. 
+
+Question 6 ->
+
+O custo do selo de uma carta com até 50 gramas é de R$ 0,45. As cartas com peso
+superior pagam um adicional de R$ 0,45 por cada 20 gramas, ou fração, em que excedem
+aquele peso. Escreva um algoritmo que dado o peso da carta, em gramas, determine o
+custo do selo.
+
+Question 7 ->
+
+Dado uma letra, escreva um algoritmo que informe se ela é ou não uma vogal.
+
+Question 8 ->
+
+Um casal possui três filhos: Marquinhos, Zezinho e Luluzinha. Faça um algoritmo para
+ler as idades dos filhos e exibir quem é o caçula da família; suponha que não haja
+empates.
+
+Question 9 ->
+
+Escreva um algoritmo para ler o ano de nascimento de 3 irmãos, escrever uma mensagem
+que indique se eles são TRIGÊMEOS, GÊMEOS, APENAS IRMÃOS. Considere que eles são GÊMEOS
+se dois deles possuem a mesma idade e o outro diferente dos demais, e apenas irmãos se
+todas as idades forem diferentes.

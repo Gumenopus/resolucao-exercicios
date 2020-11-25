@@ -1,0 +1,30 @@
+Question 3 ->
+
+Descreva um algoritmo que calcule e escreva a soma da seguinte série de 100
+termos:
+
+    1  +  1  +  1  +  1  ...  1
+    1  +  2  +  3  +  4  ...  100
+
+Question 4 ->
+
+Descreva um algoritmo para calcular o valor de S dado por:
+
+    S =   3  +  5  +  7  +   9   +  11  +  ...
+          2  +  6  +  12  +  20  +  30
+
+Question 8 -> 
+
+Descreva um algoritmo que leia um número inteiro n e, dados n números inteiros,
+descreva um algoritmo que:
+
+a) escreva o menor valor negativo;
+b) escreva a média dos números positivos.
+
+Question 9 ->
+
+Uma turma tem n alunos. Dado n, o nome e idade de cada aluno descreva um
+algoritmo que:
+
+a) escreva os nomes dos alunos que tem 18 anos;
+b) escreva a quantidade de alunos que tem idade acima de 20 anos
