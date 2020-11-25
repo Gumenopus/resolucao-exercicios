@@ -1,10 +1,10 @@
-# 🍭 Objetivo #
+# Objetivo #
 
 Repositório com resolução de exercícios de algumas instituições. Uso para ajudar e/ou tirar dúvidas de algumas pessoas em relação à um certo problema.
 
 Sempre que alguém publicar ou pedir ajuda para resolver algum problema, eu tentarei resolvê-lo e publicar aqui.
 
-# 🧁 Arquitetura
+# Arquitetura #
 
 Há várias pastas para uma série de exercícios/problemas. Dentro de cada pasta, deixo um arquivo .txt para armazenar as perguntas caso alguém tenha alguma dúvida. Na mesma pasta há as classes referentes a cada pergunta.
 
