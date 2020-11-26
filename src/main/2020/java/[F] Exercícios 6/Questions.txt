@@ -1,0 +1,30 @@
+Question 2 ->
+
+Dados 12 valores reais, faça um programa que determine quantos desses valores
+são maiores que a média dos valores. Faça um método para ler, outro para calcular
+a média e outro para informar os valores maiores que a média.
+
+Question 3 -> 
+
+Escreva um programa para ler 12 números decimais. Em seguida, modifique o vetor
+de modo que os valores das posições ímpares sejam aumentados em 5% e os das
+posições pares sejam aumentados em 2%. Exiba o vetor resultante na tela. Faça um
+método para ler, outro para ajustar os valores e outro para escrever.
+
+Question 6 -> 
+
+Faça um programa que leia N valores reais. Em seguida, dado um determinado valor,
+informe se o mesmo foi cadastrado no vetor. Faça um método para ler o vetor e
+outro, que retorne verdadeiro ou falso, para encontrar o valor.
+
+Question 9 ->
+
+Um cinema pretende fazer uma pesquisa para avaliar o grau de satisfação de seus
+clientes. Trinta deles foram ouvidos e para cada perguntou-se o sexo (1=feminino
+2=masculino), uma nota para o cinema (zero até dez) e a idade.
+Baseado nisto faça um programa que informe:
+
+a) qual a nota média recebida pelo cinema;
+b) qual a nota média atribuída pelos homens;
+c) qual a nota atribuída pela mulher mais jovem;
+d) quantas das mulheres com mais de 50 anos deram nota superior a média.
